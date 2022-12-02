@@ -1,6 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
+import { Banner } from '@nx-react/common-ui';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
@@ -8,6 +9,7 @@ export function App() {
   return (
     <>
       <NxWelcome title="admin" />
+      <Banner text="Welcome to our admin app." />
       <div />
 
       {/* START: routes */}
